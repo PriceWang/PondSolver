@@ -2,7 +2,7 @@
 Author: Guoxin Wang
 Date: 2024-01-30 15:01:57
 LastEditors: Guoxin Wang
-LastEditTime: 2024-02-02 16:46:00
+LastEditTime: 2024-02-06 11:59:08
 FilePath: /PoolSolver/pool_solver.py
 Description: 
 
@@ -10,7 +10,7 @@ Copyright (c) 2024 by Guoxin Wang, All Rights Reserved.
 """
 
 import copy
-from tkinter import *
+from tkinter import Tk, Entry, Label, Button, END
 
 up, down, left, right = 0, 1, 2, 3
 step = 0
@@ -223,7 +223,7 @@ def solver(board):
 
 
 def tk_init():
-    root = Tk()
+    root = Tk(className="pool")
     entrys = []
     texts = []
     for i in range(6):
