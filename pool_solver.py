@@ -10,7 +10,7 @@ Copyright (c) 2024 by Guoxin Wang, All Rights Reserved.
 """
 
 import copy
-from tkinter import Tk, Entry, Label, Button, END
+from tkinter import END, Button, Entry, Label, Tk
 
 up, down, left, right = 0, 1, 2, 3
 step = 0
