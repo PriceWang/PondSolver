@@ -2,8 +2,8 @@
 Author: Guoxin Wang
 Date: 2024-09-17 13:04:35
 LastEditors: Guoxin Wang
-LastEditTime: 2024-09-24 23:31:21
-FilePath: \PoolSolver\Game.py
+LastEditTime: 2024-09-25 11:43:28
+FilePath: \PondSolver\Game.py
 Description: 
 
 Copyright (c) 2024 by Guoxin Wang, All Rights Reserved. 
@@ -213,6 +213,9 @@ class Game:
 
         # set parameters
         self.screen = pygame.display.set_mode((screen_w, screen_h))
+        pygame.display.set_caption("PondSolver")
+        icon = pygame.image.load("assets/icon.png")
+        pygame.display.set_icon(icon)
         self.clock = pygame.time.Clock()
 
         # init all flags
