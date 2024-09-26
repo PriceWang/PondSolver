@@ -2,8 +2,8 @@
 Author: Guoxin Wang
 Date: 2024-09-17 13:04:35
 LastEditors: Guoxin Wang
-LastEditTime: 2024-09-25 11:43:28
-FilePath: \PondSolver\Game.py
+LastEditTime: 2024-09-26 16:00:49
+FilePath: /PondSolver/Game.py
 Description: 
 
 Copyright (c) 2024 by Guoxin Wang, All Rights Reserved. 
