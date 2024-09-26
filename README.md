@@ -2,43 +2,54 @@
  * @Author: Guoxin Wang
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
- * @LastEditTime: 2024-09-25 12:13:49
+ * @LastEditTime: 2024-09-26 15:22:43
  * @FilePath: \PondSolver\README.md
  * @Description:
  *
  * Copyright (c) 2024 by Guoxin Wang, All Rights Reserved.
 -->
 
-## PondSolver: A solver for game 'Pond'
+<div align="center">
+
+## 浅塘解题器
+
+[English](README_EN.md) / 中文
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/30796250/370679505-e3f7779d-3656-4c9e-ae08-36770189f05d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcyNjE1NzcsIm5iZiI6MTcyNzI2MTI3NywicGF0aCI6Ii8zMDc5NjI1MC8zNzA2Nzk1MDUtZTNmNzc3OWQtMzY1Ni00YzllLWFlMDgtMzY3NzAxODlmMDVkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI1VDEwNDc1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkYWM3NTI2MjQ4ZmQyZjhjYmU1MmUxZTdkYWIzYjIwYzJiZDNhNzY0ZDgzMjJhMzkwYmU2NTUzNTA1ODk5MzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6uPTGAXSAOZWG_g7nWfnf-6ImLH6stNgZGsXKQ20qpc" width="30%">
+  <img src="https://github.com/user-attachments/assets/27fc6ce8-6bb9-4c73-bf20-fa3d0b5a54b4" width="30%">
 </p>
 
-This is a solver for the game '[Pond](https://apps.apple.com/us/app/pond-save-the-little-carp/id1090426612)'
+> **为“[浅塘](https://apps.apple.com/us/app/%E6%B5%85%E5%A1%98/id1090426612?l=zh)”游戏快速寻找最优解**
 
-### Catalog
+</div>
 
-- [x] 1.0 version
-- [x] Readme eng version
-- [ ] Speedup solving
+### 开发日志
 
-### Requirement
+- [x] 基础功能 (v1.0)
+- [x] Readme 中文版 (v1.1)
+- [x] 加速解答计算 (v1.2)
+- [x] Readme 英文版 (v1.3)
+- [x] 完整功能 (v2.0)
+- [ ] 键盘控制 (v2.1)
+- [ ] 背景音也 (v2.2)
+- [ ] 更多交互 (v3.0)
+- [ ] 切换动画 (v4.0)
 
-Install the required package:
+### 准备工作
+
+安装依赖：
 
 ```
 pip install pygame
 ```
 
-### Solving
+### 求解
 
-Run the solver:
+运行解题器：
 
 ```
 python Game.py
 ```
 
-- Drag and place blocks for the level.
-- Click the bulb for the solution.
-  - This might take a long time, please wait with patient.
+- 按照当前关卡拖放块。
+- 左键单击灯泡求解
