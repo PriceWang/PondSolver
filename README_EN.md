@@ -2,7 +2,7 @@
  * @Author: Guoxin Wang
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
- * @LastEditTime: 2024-09-26 15:23:58
+ * @LastEditTime: 2024-09-26 15:40:58
  * @FilePath: \PondSolver\README_EN.md
  * @Description:
  *
@@ -16,7 +16,7 @@
 English / [中文](README.md)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/27fc6ce8-6bb9-4c73-bf20-fa3d0b5a54b4" width="30%">
+  <img src="https://github.com/user-attachments/assets/e5b71922-b4d4-4cf4-a984-f51cef8ca73a" width="30%">
 </p>
 
 > **A solver for the game '[Pond](https://apps.apple.com/us/app/pond-save-the-little-carp/id1090426612)'**
