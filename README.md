@@ -16,7 +16,7 @@
 [English](README_EN.md) / 中文
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/27fc6ce8-6bb9-4c73-bf20-fa3d0b5a54b4" width="30%">
+  <img src="https://github.com/user-attachments/assets/e5b71922-b4d4-4cf4-a984-f51cef8ca73a" width="30%">
 </p>
 
 > **为“[浅塘](https://apps.apple.com/us/app/%E6%B5%85%E5%A1%98/id1090426612?l=zh)”游戏快速寻找最优解**
