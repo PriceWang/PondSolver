@@ -2,8 +2,8 @@
  * @Author: Guoxin Wang
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
- * @LastEditTime: 2024-09-26 15:22:43
- * @FilePath: \PondSolver\README.md
+ * @LastEditTime: 2024-09-26 16:58:57
+ * @FilePath: /PondSolver/README.md
  * @Description:
  *
  * Copyright (c) 2024 by Guoxin Wang, All Rights Reserved.
@@ -30,8 +30,8 @@
 - [x] 加速解答计算 (v1.2)
 - [x] Readme 英文版 (v1.3)
 - [x] 完整功能 (v2.0)
-- [ ] 键盘控制 (v2.1)
-- [ ] 背景音也 (v2.2)
+- [x] 键盘控制 (v2.1)
+- [ ] 背景音乐 (v2.2)
 - [ ] 更多交互 (v3.0)
 - [ ] 切换动画 (v4.0)
 

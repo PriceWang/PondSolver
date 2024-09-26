@@ -2,7 +2,7 @@
 Author: Guoxin Wang
 Date: 2024-09-17 13:04:35
 LastEditors: Guoxin Wang
-LastEditTime: 2024-09-26 16:00:49
+LastEditTime: 2024-09-26 16:56:00
 FilePath: /PondSolver/Game.py
 Description: 
 
@@ -312,11 +312,10 @@ class Game:
                 and self.init_pos["btn_solve"].y_1 < mouse.y_1
                 and mouse.y_1 < self.init_pos["btn_solve"].y_2
             ):
-                if len(self.blocks_place) > 0:
-                    self.step_print = 0
-                    self.update_board()
-                    self.boards_print, self.msg = solver(self.board)
-                    self.solution = True
+                self.step_print = 0
+                self.update_board()
+                self.boards_print, self.msg = solver(self.board)
+                self.solution = True
             elif (
                 self.init_pos["btn_exit"].x_1 < mouse.x_1
                 and mouse.x_1 < self.init_pos["btn_exit"].x_2
@@ -452,6 +451,16 @@ class Game:
             # pygame.QUIT event means the user clicked X to close the window
             if event.type == pygame.QUIT:
                 self.run = False
+            elif event.type == pygame.KEYUP:
+                if event.key == pygame.K_SPACE:
+                    self.reset()
+                elif event.key == pygame.K_RETURN:
+                    self.step_print = 0
+                    self.update_board()
+                    self.boards_print, self.msg = solver(self.board)
+                    self.solution = True
+                elif event.key == pygame.K_ESCAPE:
+                    self.run = False
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
                     mouse_x, mouse_y = event.pos
@@ -594,6 +603,20 @@ class Game:
             # pygame.QUIT event means the user clicked X to close the window
             if event.type == pygame.QUIT:
                 self.run = False
+            elif event.type == pygame.KEYUP:
+                if event.key == pygame.K_BACKSPACE:
+                    self.solution = False
+                elif event.key == pygame.K_a or event.key == pygame.K_LEFT:
+                    if self.step_print > 0:
+                        self.step_print -= 1
+                elif event.key == pygame.K_d or event.key == pygame.K_RIGHT:
+                    if self.msg.isdigit():
+                        if self.step_print < int(self.msg):
+                            self.step_print += 1
+                elif event.key == pygame.K_SPACE:
+                    self.step_print = 0
+                elif event.key == pygame.K_ESCAPE:
+                    self.run = False
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
                     mouse_x, mouse_y = event.pos

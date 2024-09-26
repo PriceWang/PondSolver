@@ -3,7 +3,7 @@
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
  * @LastEditTime: 2024-09-26 15:40:58
- * @FilePath: \PondSolver\README_EN.md
+ * @FilePath: /PondSolver/README_EN.md
  * @Description:
  *
  * Copyright (c) 2024 by Guoxin Wang, All Rights Reserved.
@@ -30,7 +30,7 @@ English / [中文](README.md)
 - [x] Speedup solving (v1.2)
 - [x] Readme eng version (v1.3)
 - [x] Complete function (v2.0)
-- [ ] Keyboard control (v2.1)
+- [x] Keyboard control (v2.1)
 - [ ] BGM (v2.2)
 - [ ] More interaction (v3.0)
 - [ ] Animation (v4.0)
