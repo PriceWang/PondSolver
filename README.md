@@ -2,7 +2,7 @@
  * @Author: Guoxin Wang
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
- * @LastEditTime: 2024-09-26 16:58:57
+ * @LastEditTime: 2024-10-01 11:23:10
  * @FilePath: /PondSolver/README.md
  * @Description:
  *
@@ -31,9 +31,7 @@
 - [x] Readme 英文版 (v1.3)
 - [x] 完整功能 (v2.0)
 - [x] 键盘控制 (v2.1)
-- [ ] 背景音乐 (v2.2)
-- [ ] 更多交互 (v3.0)
-- [ ] 切换动画 (v4.0)
+- [ ] 优化 (v2.2)
 
 ### 准备工作
 

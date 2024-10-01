@@ -31,9 +31,7 @@ English / [中文](README.md)
 - [x] Readme eng version (v1.3)
 - [x] Complete function (v2.0)
 - [x] Keyboard control (v2.1)
-- [ ] BGM (v2.2)
-- [ ] More interaction (v3.0)
-- [ ] Animation (v4.0)
+- [ ] Optimization (v2.2)
 
 ### Requirement
 
