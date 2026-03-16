@@ -2,7 +2,7 @@
  * @Author: Guoxin Wang
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
- * @LastEditTime: 2024-10-01 11:23:10
+ * @LastEditTime: 2026-03-16 16:51:06
  * @FilePath: /PondSolver/README.md
  * @Description:
  *
@@ -41,6 +41,18 @@
 pip install pygame
 ```
 
+### 项目结构
+
+```
+Game.py              # 桌面版入口
+main.py              # 网页版入口
+pondsolver/
+  assets.py          # 资源与尺寸常量
+  game.py            # Pygame 主循环与交互逻辑
+  models.py          # 通用数据结构
+  solver.py          # 求解器核心逻辑
+```
+
 ### 求解
 
 运行解题器：
@@ -51,3 +63,7 @@ python Game.py
 
 - 按照当前关卡拖放块。
 - 左键单击灯泡求解
+
+在线体验：
+
+- itch.io: https://pricewang.itch.io/pondsolver

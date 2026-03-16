@@ -2,7 +2,7 @@
  * @Author: Guoxin Wang
  * @Date: 2024-09-17 11:29:44
  * @LastEditors: Guoxin Wang
- * @LastEditTime: 2024-09-26 15:40:58
+ * @LastEditTime: 2026-03-16 16:52:05
  * @FilePath: /PondSolver/README_EN.md
  * @Description:
  *
@@ -41,6 +41,18 @@ Install the required package:
 pip install pygame
 ```
 
+### Project Structure
+
+```
+Game.py              # Desktop entrypoint
+main.py              # Web entrypoint
+pondsolver/
+  assets.py          # Asset paths and size constants
+  game.py            # Pygame loop and interaction logic
+  models.py          # Shared data models
+  solver.py          # Solver core
+```
+
 ### Solving
 
 Run the solver:
@@ -51,3 +63,7 @@ python Game.py
 
 - Drag and place blocks for the level.
 - Click the bulb for the solution.
+
+Play online:
+
+- itch.io: https://pricewang.itch.io/pondsolver
